@@ -1,0 +1,47 @@
+.printout-account-statement-view{
+  margin-top: 40px;
+  height: 100%;
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+
+  .row{
+    max-width: 100%;
+    margin:0;
+    margin-bottom: 50px;
+  }
+  .input-group{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 50%;
+    &-append{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 5px;
+    }
+}
+  &__calendarlogo{
+    width: 25px;
+    height:25px;
+
+  }
+  &__startdate{
+    padding-right:50px;
+  }
+  &__input-container {
+    display: flex;
+  }
+  &__nextbutton{
+    margin-bottom: 5px;
+    height: 35px;
+    background-color: #6c757d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+  }
+}
